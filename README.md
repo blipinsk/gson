@@ -2,7 +2,7 @@
 
 This is a repackaging of Google's Gson annotations. Just annotations. Nothing else.
 
-_The only code change that have been made is removing of the `com.google.gson.*` references from `JsonAdapter`'s javadoc._
+_The only code change that has been made is removing of the `com.google.gson.*` references from `JsonAdapter`'s javadoc._
 
 ### Download
 
