@@ -1,7 +1,8 @@
 # gson-annotations
 
 This is a repackaging of Google's Gson annotations. Just annotations. Nothing else.
-The only code change that have been made is removing of the `com.google.gson.*` classes from `JsonAdapter`'s javadoc.
+
+_The only code change that have been made is removing of the `com.google.gson.*` references from `JsonAdapter`'s javadoc._
 
 ### Download
 
