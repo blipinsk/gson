@@ -16,17 +16,13 @@
 
 package com.google.gson.annotations;
 
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonSerializer;
-import com.google.gson.TypeAdapter;
-import com.google.gson.TypeAdapterFactory;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * An annotation that indicates the Gson {@link TypeAdapter} to use with a class
+ * An annotation that indicates the Gson {@code TypeAdapter} to use with a class
  * or field.
  *
  * <p>Here is an example of how this annotation is used:</p>
@@ -74,14 +70,14 @@ import java.lang.annotation.Target;
  * </pre>
  *
  * It's possible to specify different type adapters on a field, that
- * field's type, and in the {@link com.google.gson.GsonBuilder}. Field
+ * field's type, and in the {@code com.google.gson.GsonBuilder}. Field
  * annotations take precedence over {@code GsonBuilder}-registered type
  * adapters, which in turn take precedence over annotated types.
  *
- * <p>The class referenced by this annotation must be either a {@link
- * TypeAdapter} or a {@link TypeAdapterFactory}, or must implement one
- * or both of {@link JsonDeserializer} or {@link JsonSerializer}. 
- * Using {@link TypeAdapterFactory} makes it possible to delegate 
+ * <p>The class referenced by this annotation must be either a {@code
+ * TypeAdapter} or a {@code TypeAdapterFactory}, or must implement one
+ * or both of {@code JsonDeserializer} or {@code JsonSerializer}.
+ * Using {@code TypeAdapterFactory} makes it possible to delegate
  * to the enclosing {@code Gson} instance.
  *
  * @since 2.3
@@ -95,7 +91,7 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.FIELD})
 public @interface JsonAdapter {
 
-  /** Either a {@link TypeAdapter} or {@link TypeAdapterFactory}, or one or both of {@link JsonDeserializer} or {@link JsonSerializer}. */
+  /** Either a {@code TypeAdapter} or {@code TypeAdapterFactory}, or one or both of {@code JsonDeserializer} or {@code JsonSerializer}. */
   Class<?> value();
 
   /** false, to be able to handle {@code null} values within the adapter, default value is true. */
