@@ -6,7 +6,7 @@ _The only code change that have been made is removing of the `com.google.gson.*`
 
 ### Download
 
-***Download using jitpack.io. As version use the Gson version prefixed with `annotations-`***
+*(Download using jitpack.io* ***For version, use the Gson version prefixed with `annotations-`.*** *)*
 
 ---
 
@@ -14,15 +14,15 @@ _The only code change that have been made is removing of the `com.google.gson.*`
 
 ```gradle
 repositories {
-	//...
-	maven { url 'https://jitpack.io' }
+  //...
+  maven { url 'https://jitpack.io' }
 }
 ```
 
 2. Add the dependency
 ```gradle
 dependencies {
-  implementation 'com.google.code.gson:gson:2.8.6'
+  implementation 'com.github.blipinsk:gson-annotations:annotations-2.8.6'
 }
 ```
 
