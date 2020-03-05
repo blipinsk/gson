@@ -6,8 +6,6 @@ _The only code change that have been made is removing of the `com.google.gson.*`
 
 ### Download
 
-*(Download using jitpack.io* ***For version, use the Gson version prefixed with `annotations-`.*** *)*
-
 ---
 
 1. Add it in your root `build.gradle` at the end of repositories:
@@ -22,7 +20,8 @@ repositories {
 2. Add the dependency
 ```gradle
 dependencies {
-  implementation 'com.github.blipinsk:gson-annotations:annotations-2.8.6'
+  // 27787b8a7b matches Gson v2.8.6
+  implementation 'com.github.blipinsk:gson-annotations:27787b8a7b'
 }
 ```
 
