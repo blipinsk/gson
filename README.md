@@ -22,7 +22,7 @@ repositories {
 2. Add the dependency
 ```gradle
 dependencies {
-  implementation 'com.github.blipinsk:gson-annotations:annotations-2.8.8'
+  implementation 'com.github.blipinsk:gson-annotations:annotations-2.8.9'
 }
 ```
 
